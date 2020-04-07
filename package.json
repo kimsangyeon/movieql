@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kimsangyeon/movieql/issues"
   },
-  "homepage": "https://github.com/kimsangyeon/movieql#readme"
+  "homepage": "https://github.com/kimsangyeon/movieql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
