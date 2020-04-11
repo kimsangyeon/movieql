@@ -33,5 +33,5 @@ export const people = [
 
 export const getById = (id) => {
   const filterPeople = people.filter((person) => person.id === id);
-  return filterPeople;
+  return filterPeople[0];
 };
