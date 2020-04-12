@@ -45,7 +45,7 @@ export const deleteMovie = (id) => {
 
 export const addMovie = (name, score) => {
   const newMovie = {
-    id: movies.length + 1,
+    id: movies.reduce((id, movie) => Math.max(id, movie.id + 1), 0),
     name,
     score,
   };
